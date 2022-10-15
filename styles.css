@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: hsl(286, 62%, 26%);
+}
+p {
+  font-size: 0.85rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: hsl(286, 62%, 26%);
+}
+
+header nav {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header nav img {
+  width: 180px;
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(230, 168, 10);
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+.active {
+  color: rgb(230, 168, 10);
+}
+
+main {
+  width: 60%;
+  height: 500px;
+  margin: 0 auto;
+}
+main div img {
+  width: 150px;
+}
+main .land {
+  text-align: center;
+}
+
+main .land > * {
+  margin-top: 20px;
+}
+
+.land p {
+  font-size: 1.5rem;
+  color: rgb(230, 168, 10);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.parag {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.parag p {
+  width: 40%;
+  text-align: justify;
+}
+
+main .carte {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main .carte > * {
+  margin-top: 40px;
+  height: fit-content;
+}
+main .carte .card img {
+  width: 250px;
+  border-radius: 50%;
+}
+main .carte .card img:hover {
+  width: 200px;
+  box-shadow: 5ch;
+  border-radius: 30%;
+}
+
+main .carte p {
+  margin-top: 40px;
+  width: 50%;
+  font-size: 0.8rem;
+  border-style: dashed;
+  background: linear-gradient(#f5deb3, white);
+  color: hsl(286, 62%, 26%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 30px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 10px;
+  border-color: rgb(230, 168, 10);
+}
+h6 {
+  color: rgb(230, 168, 10);
+}
+
+.card1 ul {
+  justify-content: space-around;
+  font-size: 0.8rem;
+  border-style: solid;
+  background: white;
+  color: hsl(286, 62%, 26%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 20px;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border-color: rgb(230, 168, 10);
+  padding: 40px;
+  list-style: none;
+}
+.card1 ul li i {
+  margin: 20px;
+  padding-left: 10 px;
+  line-height: 10px;
+  font-size: medium;
+  color: black;
+}
+
+main .educ {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+main .educ .card {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.card img {
+  width: min-content;
+  align-self: center;
+  border-radius: 100%;
+  margin-top: 5px;
+}
+main .educ .card h5 {
+  font-size: 0.9rem;
+  color: rgb(230, 168, 10);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: hsl(286, 62%, 26%);
+}
+
+footer nav {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+footer nav ul {
+  display: flex;
+  list-style: none;
+}
+footer nav ul li {
+  margin-left: 20px;
+}
+footer nav ul li :hover {
+  color: rgb(230, 168, 10);
+}
+
+footer nav img {
+  width: 180px;
+}
+
+footer nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(230, 168, 10);
+  font-size: 20px;
+  transition-duration: 1s;
+}
+
+.carousel-inner {
+  width: 50%;
+  height: 50%;
+}
+
+.Exper ul {
+  justify-content: space-around;
+  font-size: 0.9rem;
+  border-style: solid;
+  background: white;
+  color: hsl(286, 62%, 26%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 35px;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border-color: rgb(230, 168, 10);
+  padding: 40px;
+  list-style: none;
+}
+.Exper ul li i {
+  margin: 20px;
+  padding-left: 10 px;
+  line-height: 10px;
+  font-size: large;
+  color: hsl(286, 62%, 26%);
+}
+.Exper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+.carousel-inner {
+  height: 300px;
+}
+
+.progress-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(286, 62%, 26%);
+  letter-spacing: 2px;
+  margin: 0 0 15px;
+}
+.progress {
+  height: 25px !important;
+  background: rgb(230, 168, 10);
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 40px;
+  overflow: visible;
+  position: relative;
+}
+.progress .progress-bar {
+  box-shadow: none;
+  border-radius: 0;
+  position: relative;
+  -webkit-animation: 2s linear 0s normal none infinite running
+      progress-bar-stripes,
+    animate-positive 2s;
+  animation: 3s linear 0s normal none infinite running progress-bar-stripes,
+    animate-positive 1s;
+}
+.progress-bar .progress-value {
+  width: 50px;
+  height: 100%;
+  background: rgb(230, 168, 10);
+  font-size: 15px;
+  font-weight: 600;
+  color: purple;
+  position: absolute;
+  line-height: 27px;
+  top: 0;
+  left: 0;
+}
+.progress:after,
+.progress .progress-bar:after,
+.progress .progress-value:after {
+  content: "";
+  border-left: 13px solid rgb(230, 168, 10);
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  position: absolute;
+  top: 0;
+  right: -13px;
+}
+.progress.red .progress-bar:after {
+  border-left-color: #d9534f;
+}
+.progress .progress-value:after {
+  border-left: 13px solid rgb(230, 168, 10);
+}
+.progress.blue .progress-bar:after {
+  border-left-color: #5bc0de;
+}
+.progress.yellow .progress-bar:after {
+  border-left-color: #f0ad4e;
+}
+.progress.green .progress-bar:after {
+  border-left-color: #5cb85c;
+}
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+@keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
